@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: #292870;
+}
+nav{
+    width: 100%;
+}
+nav img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.content{
+    margin-top: 60px;
+}
+.content .upper-part{
+    display: flex;
+}
+.content .upper-part .left{
+    flex: 1;
+    margin-left: 55px;
+}
+.content .upper-part .left h1{
+    font-family: Oswald;
+    font-size: 70px;
+    line-height: 70px;
+    color: #efab47;
+    font-weight: 400;
+}
+.content .upper-part .left p{
+    font-family: Oswald;
+    color: #f6ffff;
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.content .upper-part .left p a{
+    font-family: Oswald;
+    color: #f6ffff;
+    font-size: 17px;
+    font-weight: 400;
+}
+.content .upper-part .left p a:hover{
+    text-decoration: none;
+}
+.content .upper-part .right{
+    flex: 2;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.content .upper-part .right p{
+    font-family: Oswald;
+    color: #fafdff;
+    font-weight: 300;
+    font-size: 20px;
+}
+.content .upper-part .right button{
+    margin-top: 20px;
+    background-color: #efab47;
+    border: none;
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 2px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    color: #292870;
+}
+.content .upper-part .right button:hover{
+    background-color: #f6ffff;
+}
+.content .lower-part{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.content .lower-part a img{
+    margin: 5px;
+    width: 275px;
+    height: 275px;
+}
+.content .lower-part a img:hover{
+    box-shadow: 3px 2px 5px 2px #32318e;
+    width: 276px;
+    height: 276px;
+}
+.content .text p{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 17px;
+    font-weight: 200;
+    color: #ffffff;
+}
+@media screen and (max-width: 500px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content .upper-part{
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .content .upper-part .right p{
+        font-size: 15px;
+        margin-right: 25px;
+    }
+    .content .lower-part{
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+    }
+}
