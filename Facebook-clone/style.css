@@ -1,0 +1,416 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f0f2f5;
+}
+.Home{
+    display: flex;
+    margin: 100px;
+}
+.Home .left{
+    flex: 1;
+    margin-top: 100px;
+    /* margin-left: 170px; */
+}
+.Home .left h1{
+    color: #1877f2;
+    font-family: Roboto;
+    font-size: 60px;
+}
+.Home .left p{
+    color: #1c1e21;
+    font-family: Roboto;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.Home .right{
+    flex: 1;
+}
+.Home .right .form{
+    background-color: #fff;
+    width: fit-content;
+    border-radius: 8px;
+    box-shadow:  0 8px 16px #6b6b6b;
+}
+.Home .right .form form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding-top: 15px;
+}
+.Home .right .form form .ip{
+    width: 350px;
+    padding-left: 15px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 17px;
+    color: #1c1e21;
+}
+.Home .right .form form .login{
+    margin: 5px;
+    width: 367px;
+    height: 50px;
+    margin-top: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+}
+.Home .right .form form .login:hover{
+    background-color: #1858a7;
+    font-size: 21px;
+}
+.Home .right .form form a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #1877f2;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: -100px;
+}
+.Home .right .form form a:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 365px;
+    margin: 15px 5px;
+}
+.Home .right .form .btn1{
+    margin: 5px 5px 20px 5px;
+    width: 180px;
+    height: 50px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    margin-left: 112px;
+}
+.Home .right .form .btn1:hover{
+    background-color: #217410;
+}
+.Home .right .page{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: Roboto;
+    font-size: 15px;
+}
+.Home .right .page a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.Home .right .page p{
+    color: #1c1e21;
+    padding-left: 5px;
+}
+.Home .right .page a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .Home .left h1 {
+        font-size: 90px;
+    }
+    .Home .left p {
+        font-size: 12px;
+        width: 350px;
+    }
+    .Home .right {
+        margin-left: 50px;
+    }
+    .Home .right .form form .ip{
+        width: 340px;
+        height: 45px;
+        font-size: 17px;
+    }
+    .Home .right .form form .login{
+        width: 360px;
+        height: 45px;
+        font-size: 25px;
+    }
+    .Home .right .form form a{
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    hr{
+        width: 370px;
+    }
+    .Home .right .form .btn1{
+        width: 200px;
+        height: 55px;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    .Home .right .page{
+        font-size: 15px;
+    }
+    .Home .right .page p{
+        color: #1c1e21;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    .Home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -70px;
+        margin-bottom: -50px;
+    }
+    .Home .left h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+    .Home .left p {
+        text-align: center;
+        font-size: 10px;
+    }
+    .Home .right {
+        margin-right: 35px;
+        margin-top: 40px;
+    }
+    .Home .right .form form .ip{
+        width: 250px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .Home .right .form form .login{
+        width: 270px;
+        height: 50px;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Home .right .form form a{
+        font-size: 15px;
+    }
+    hr{
+        width: 300px;
+    }
+    .Home .right .form .btn1{
+        width: 250px;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        margin-bottom: 25px;
+    }
+    .Home .right .page{
+        font-size: 13px;
+        width: 300px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .Home .right .page p{
+        color: #1c1e21;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .Home{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .Home .left h1 {
+        font-size: 130px;
+    }
+    .Home .left p {
+        font-size: 17px;
+        width: 500px;
+    }
+    .Home .right {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .Home .right .form form .ip{
+        width: 400px;
+        height: 65px;
+        font-size: 23px;
+        margin-top: 10px;
+    }
+    .Home .right .form form .login{
+        width: 420px;
+        height: 75px;
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Home .right .form form a{
+        font-size: 25px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    hr{
+        width: 450px;
+    }
+    .Home .right .form .btn1{
+        width: 300px;
+        height: 95px;
+        font-size: 30px;
+        margin-left: 80px;
+        margin-bottom: 25px;
+        margin-top: 15px;
+    }
+    .Home .right .page{
+        margin-top: 25px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    .Home .right .page p{
+        color: #1c1e21;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .Home .left h1 {
+        font-size: 90px;
+    }
+    .Home .left p {
+        font-size: 12px;
+        width: 350px;
+    }
+    .Home .right {
+        margin-left: 50px;
+    }
+    .Home .right .form form .ip{
+        width: 340px;
+        height: 45px;
+        font-size: 17px;
+    }
+    .Home .right .form form .login{
+        width: 360px;
+        height: 45px;
+        font-size: 25px;
+    }
+    .Home .right .form form a{
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    hr{
+        width: 370px;
+    }
+    .Home .right .form .btn1{
+        width: 200px;
+        height: 55px;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    .Home .right .page{
+        font-size: 15px;
+    }
+    .Home .right .page p{
+        color: #1c1e21;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .Home{
+        margin-top: 170px;
+    }
+    .Home .left h1 {
+        font-size: 130px;
+    }
+    .Home .left p {
+        font-size: 15px;
+        width: 450px;
+    }
+    .Home .right {
+        margin-left: 70px;
+    }
+    .Home .right .form{
+        padding: 5px;
+    }
+    .Home .right .form form .ip{
+        width: 400px;
+        height: 55px;
+        font-size: 20px;
+    }
+    .Home .right .form form .login{
+        width: 420px;
+        height: 55px;
+        font-size: 30px;
+    }
+    .Home .right .form form a{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    hr{
+        width: 440px;
+    }
+    .Home .right .form .btn1{
+        width: 250px;
+        height: 65px;
+        font-size: 25px;
+        margin-left: 110px;
+    }
+    .Home .right .page{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .Home{
+        margin-top: 250px;
+    }
+    .Home .left h1 {
+        font-size: 200px;
+    }
+    .Home .left p {
+        font-size: 30px;
+    }
+    .Home .right {
+        margin-left: 150px;
+    }
+    .Home .right .form form .ip{
+        margin-top: 20px;
+        width: 650px;
+        height: 85px;
+        font-size: 35px;
+    }
+    .Home .right .form form .login{
+        width: 670px;
+        height: 85px;
+        font-size: 50px;
+    }
+    .Home .right .form form a{
+        font-size: 27px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    hr{
+        width: 700px;
+    }
+    .Home .right .form .btn1{
+        width: 350px;
+        height: 85px;
+        font-size: 33px;
+        margin-left: 180px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .Home .right .page{
+        font-size: 20px;
+    }
+    .Home .right .page p{
+        color: #1c1e21;
+        padding-left: 10px;
+    }
+}
