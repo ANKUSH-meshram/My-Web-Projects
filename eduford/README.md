@@ -4,6 +4,10 @@
 
 A campus of variety of educational courses along with lots of extracurricular activities.
 
+*Website deployed at-*
+
+[EdufordbyAnkush](https://edufordbyankush.netlify.app/)
+
 ![](./output.png)
 
 
