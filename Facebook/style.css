@@ -122,7 +122,50 @@ hr{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 400px) and (min-width: 200px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .Home .left h1 {
+        font-size: 90px;
+    }
+    .Home .left p {
+        font-size: 12px;
+        width: 350px;
+    }
+    .Home .right {
+        margin-left: 50px;
+    }
+    .Home .right .form form .ip{
+        width: 340px;
+        height: 45px;
+        font-size: 17px;
+    }
+    .Home .right .form form .login{
+        width: 360px;
+        height: 45px;
+        font-size: 25px;
+    }
+    .Home .right .form form a{
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    hr{
+        width: 370px;
+    }
+    .Home .right .form .btn1{
+        width: 200px;
+        height: 55px;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    .Home .right .page{
+        font-size: 15px;
+    }
+    .Home .right .page p{
+        color: #1c1e21;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
     .Home{
         display: flex;
         flex-direction: column;
